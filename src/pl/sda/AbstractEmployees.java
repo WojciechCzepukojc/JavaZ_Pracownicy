@@ -25,13 +25,11 @@ public abstract class AbstractEmployees implements SalaryCalculable {
         return ID;
     }
 
-    EmployeesEnum employee;
+    protected EmployeesEnum employee;
 
     public String getEmployeeName() {
         return employee.getName();
     }
 
-    public void setEmployee(EmployeesEnum employee) {
-        this.employee = employee;
-    }
+
 }

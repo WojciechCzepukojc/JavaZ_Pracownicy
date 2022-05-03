@@ -1,4 +1,6 @@
-package pl.sda;
+package pl.sda.production.productionEmployee;
+
+import pl.sda.EmployeesEnum;
 
 public class ProductionEmployee extends AbstractProductionEmployee {
 

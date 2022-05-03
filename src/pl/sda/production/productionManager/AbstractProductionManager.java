@@ -1,4 +1,6 @@
-package pl.sda;
+package pl.sda.production.productionManager;
+
+import pl.sda.production.Workers;
 
 public abstract class AbstractProductionManager extends Workers {
 

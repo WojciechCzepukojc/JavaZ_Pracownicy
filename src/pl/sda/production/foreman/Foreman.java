@@ -1,6 +1,8 @@
-package pl.sda;
+package pl.sda.production.foreman;
 
-public class Foreman extends AbstractForeman{
+import pl.sda.EmployeesEnum;
+
+public class Foreman extends AbstractForeman {
 
 
 

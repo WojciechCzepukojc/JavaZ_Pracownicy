@@ -1,4 +1,6 @@
-package pl.sda;
+package pl.sda.production.productionManager;
+
+import pl.sda.EmployeesEnum;
 
 public class ProductionManager extends AbstractProductionManager {
 

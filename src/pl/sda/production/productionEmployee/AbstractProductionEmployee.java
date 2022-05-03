@@ -1,6 +1,8 @@
-package pl.sda;
+package pl.sda.production.productionEmployee;
 
-public abstract class AbstractProductionEmployee extends Workers{
+import pl.sda.production.Workers;
+
+public abstract class AbstractProductionEmployee extends Workers {
 
     protected static final double multiplier = 1.2;
 

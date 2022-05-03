@@ -1,8 +1,11 @@
-package pl.sda;
+package pl.sda.production;
 
-public abstract class Workers extends AbstractEmployees{
+import pl.sda.AbstractEmployees;
+
+public abstract class Workers extends AbstractEmployees {
 
     protected static final int workersBonus = 500;
+
 
 
     public Workers(String name, String surname, String ID) {
