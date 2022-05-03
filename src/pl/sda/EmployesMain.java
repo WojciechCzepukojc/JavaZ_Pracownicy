@@ -34,8 +34,8 @@ public class EmployesMain {
         array[6] = e7;
 
         for (AbstractEmployees employee:array){
-            System.out.println(" Pracownik " + employee.getName() +" " + employee.getSurname() + " ID: " + employee.getID() + " zatrudniony na stanowisku: " +
-                    employee.getEmployeeName() + " otrzymuje miesięczne wynagrodzenie w wysokości " + employee.salaryCalculation() + " PLN");
+            System.out.println(" Employee " + employee.getName() +" " + employee.getSurname() + " ID: " + employee.getID() + " employed in the position: " +
+                    employee.getEmployeeName() + " receives a monthly salary in the amount of " + employee.salaryCalculation() + " PLN");
 
         }
 
