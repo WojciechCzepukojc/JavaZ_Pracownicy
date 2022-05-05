@@ -10,7 +10,7 @@ public abstract class AbstractEmployees implements SalaryCalculable {
     public AbstractEmployees(String name, String surname, String ID) {
         this.name = name;
         this.surname = surname;
-        this.ID = ID;
+        setID(ID);
     }
 
     public String getName() {
@@ -23,6 +23,21 @@ public abstract class AbstractEmployees implements SalaryCalculable {
 
     public String getID() {
         return ID;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public void setID(String ID) {
+        if (ID==null || ID.length() != 5 ){
+            throw new IllegalArgumentException("invalid ID");
+        }
+        this.ID = ID;
     }
 
     protected EmployeesEnum employee;
